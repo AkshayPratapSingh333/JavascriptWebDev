@@ -16,4 +16,16 @@ console.log(vara.charAt(5));
 console.log(vara.indexOf('y'));
 
 const newvara = vara.substring(0,4); // 4th value does not included
-console.log(newvara);// slicing
+console.log(newvara);
+const anovara  = vara.slice(-6,3)
+console.log(anovara);// slicing
+
+const newevara = "      Akshay     " // spacing
+console.log(newevara);
+console.log(newevara.trim()); // it trims the unusual space of string 
+
+const url = "https://kashiasfdoi#$hello"
+console.log(url.replace('#$','--')); // replaced #$ with --
+console.log(url.includes('hello'));
+console.log(vara.split(''));
+
