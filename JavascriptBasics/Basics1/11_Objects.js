@@ -40,3 +40,11 @@ console.log(Object.keys(newUser1));
 console.log(Object.values(newUser1));
 console.log(Object.entries(newUser1)); // prints key value in array
 console.log(newUser1.hasOwnProperty('id')); // prints true/false as it present or not
+
+// deconstruction of object
+
+const {id : i} = newUser1 // short  name i 
+// console.log(id);   // 333fsfff
+console.log(i);  // 333fsfff
+//   formats of api can be objects , array 
+
