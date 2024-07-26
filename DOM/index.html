@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <style>
+        .bg-color{
+            background-color: #757575;
+            color: #fefffe;
+        }
+    </style>
+</head>
+<body class="bg-color" >
+    <div id="body">
+        <h1 class="heading" id="helo" >DOM - Document Object Model  <span style="display: none;">Javascript</span> </h1>
+        <h2>Lorem ipsum dolor sit amet consectetur.</h2>
+        <h2>Lorem ipsum dolor sit amet consectetur guguggiuioiug.</h2>
+        <h2>Lorem ipsum dolor sit amet consectetur ggyguuguug.</h2>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <input type="password" name="" id="">
+
+        <ul>
+            <li class="listit">one</li>
+            <li class="listit">two</li>
+            <li class="listit">three</li>
+            <li class="listit">four</li>
+            <li class="listit">five</li>
+        </ul>
+    </div>
+</body>
+</html>
+
+<!-- document.getElementById('helo')
+ <h1 class=​"heading" id=​"helo">​DOM ​</h1>​
+document.getElementById('helo').id
+'helo'
+document.getElementById('helo').className
+'heading'
+document.getElementById('helo').getAttribute('class')
+'heading'
+document.getElementById('helo').setAttribute('class','title')
+undefined
+const helo = document.getElementById('helo')
+undefined
+helo
+<h1 class=​"title" id=​"helo">​DOM ​</h1>​
+
+helo.style.backgroundColor = '#3385ff'
+'#3385ff'
+
+helo.style.padding = '20px'
+'20px'
+
+helo
+<h1 class=​"title" id=​"helo" style=​"background-color:​ rgb(51, 133, 255)​;​ padding:​ 20px;​ border-radius:​ 20px;​">​DOM ​</h1>​
+
+helo.innerHTML
+'DOM - Document Object Model  '
+helo.innerText
+'DOM - Document Object Model'
+helo.textContent
+'DOM - Document Object Model  '
+
+helo.innerText
+'DOM - Document Object Model'  // visible text extracted only
+helo.textContent
+'DOM - Document Object Model  Javascript ' //  it helps in extracting hidden/blocked text to display
+
+elo.innerHTML
+'DOM - Document Object Model  <span style="display: none;">Javascript</span> '
+
+document.querySelector('input[type="password"]')
+<input type="password" name id>
+
+document.querySelector('ul')
+<ul>​…​</ul>​<li>​…​</li>​<li>​…​</li>​<li>​…​</li>​<li>​…​</li>​<li>​…​</li>​</ul>​
+const ulist = document.querySelector('ul')
+undefined
+ulist.querySelector('li')
+<li>​…​</li>​
+const licolor = ulist.querySelector('li')
+
+
+licolor.style.backgroundColor= "#ff751a"
+'#ff751a'
+
+document.querySelectorAll('li')
+NodeList(5) [li, li, li, li, li]
+
+const H1 = document.querySelectorAll('h1')
+undefined
+
+H1[0].style.color = "red"
+'red'
+
+const liitem = document.querySelectorAll('li') class="listit"
+
+liitem.forEach(function (liit) {
+    liit.style.color = "red"
+})
+undefined
+
+document.getElementsByClassName('listit')
+HTMLCollection(5) [li.listit, li.listit, li.listit, li.listit, li.listit]
+
+Array.from(tempclass) // conversion of htmlcollection into array
+(5) [li.listit, li.listit, li.listit, li.listit, li.listit]
+-->
