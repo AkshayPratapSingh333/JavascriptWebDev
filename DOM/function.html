@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ElementsInFunction</title>
+</head>
+<body style="background-color: #f39c9c; color: black;">
+
+    <ul class="elements">
+        <li>Java</li>
+        
+    </ul>  
+</body>
+<script>
+    function addelem(elem){
+        const li = document.createElement('li'); // li is list item
+        li.innerHTML = `${elem}`
+        document.querySelector('.elements').
+        appendChild(li)
+    }
+    addelem("Javascript")
+    addelem("Rust")
+// below is optimized code
+    function optimize(elem){
+        const li = document.createElement('li');
+        li.appendChild(document.createTextNode(elem))
+        document.querySelector('.elements').appendChild(li)
+    }
+    optimize('python')
+
+    // Edit 
+     const seclang = document.querySelector("li:nth-child(2)")
+    //  seclang.innerHTML="Mojo" // javascipt will be replaced by k
+     const secl = document.createElement('li')
+     secl.textContent = "typescript"
+     seclang.replaceWith(secl)
+
+     // 2nd method
+     const firstlang = document.querySelector("li:first-child")
+     firstlang.outerHTML = '<li>Spring</li>'
+
+     // Remove
+     const thirdlang = document.querySelector('li:nth-child(3)')
+     thirdlang.remove() // rust will be removed
+</script>
+
+</html>

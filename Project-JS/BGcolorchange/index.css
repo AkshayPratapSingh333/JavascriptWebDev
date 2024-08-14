@@ -1,0 +1,56 @@
+html {
+    margin: 0;
+  }
+  
+  span {
+    display: block;
+  }
+  .canvas {
+    margin: 100px auto 100px;
+    width: 80%;
+    text-align: center;
+  }
+  
+  .button {
+    width: 100px;
+    height: 100px;
+    border: solid black 2px;
+    display: inline-block;
+  }
+  .home .Home{
+    display: inline-block;
+    text-decoration: none;
+    color: #0e0c0c;
+    border: 1px solid #0f0e0e;
+    padding: 10px 10px;
+    font-size: 12px;
+    position: relative;
+    cursor: pointer;
+    font-weight:500;
+    background-color: rgb(174, 174, 252);
+    font-size: 1.2rem;
+    text-align: center;
+    
+  }
+
+
+  #grey {
+    background: grey;
+  }
+  
+  #white {
+    background: white;
+  }
+  #blue {
+    background: blue;
+  }
+  #yellow {
+    background: yellow;
+  }
+  #red {
+    background: red;
+  }
+  #green {
+    background: green;
+  }
+  
